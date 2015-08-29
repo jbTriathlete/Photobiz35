@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="ctrlZoom"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1100">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+                  Source="rdict.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+    <Grid  ClipToBounds="True" Width="778">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+                <RowDefinition Height="36*" />
+                <RowDefinition Height="225*" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+                <Button Content="Previous" Height="25" Name="btnPrev" Width="84" Margin="5" Style="{StaticResource myStyle}" UseLayoutRounding="False" />
+                <Button Content="Next" Height="25" Name="btnNext" Width="84" Margin="5" Style="{StaticResource myStyle}"/>
+        </StackPanel>
+            <Image Grid.Row="1" Margin="15,15,0,15" Name="Image1"  ClipToBounds="True" Height="auto"/>
+        <StackPanel Grid.Row="1" Height="Auto" HorizontalAlignment="Left" Margin="14,21,0,0" Name="StackPanel1" VerticalAlignment="Top" Width="408" Grid.Column="1" />
+    </Grid>
+
+   
+</UserControl>

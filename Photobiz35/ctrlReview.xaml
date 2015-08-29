@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="ctrlReview"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="133" d:DesignWidth="300">
+    <Grid Height="128">
+        <Image Height="83" HorizontalAlignment="Left" Margin="12,22,0,0" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="90" />
+        <Button Content="Remove" Height="26" HorizontalAlignment="Left" Margin="204,55,0,0" Name="Button1" VerticalAlignment="Top" Width="80" />
+        <Label Content="Size" Height="26" HorizontalAlignment="Left" Margin="124,35,0,0" Name="Label1" VerticalAlignment="Top" Width="32" />
+        <Label Content="Size" Height="26" HorizontalAlignment="Left" Margin="124,67,0,0" Name="lblSize" VerticalAlignment="Top" Width="32" />
+        <Label Content="Price" Height="26" HorizontalAlignment="Left" Margin="162,35,0,0" Name="Label3" VerticalAlignment="Top" Width="36" />
+        <Label Content="Price" Height="26" HorizontalAlignment="Left" Margin="166,67,0,0" Name="lblPrice" VerticalAlignment="Top" Width="32" />
+    </Grid>
+</UserControl>

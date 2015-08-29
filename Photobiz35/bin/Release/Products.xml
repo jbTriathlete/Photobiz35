@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Photobiz>
+  <Product>
+    <Item>4x6</Item>
+    <Price>8</Price>
+    <ExtendedCheckout>true</ExtendedCheckout>
+    <Division>1</Division>
+      </Product>
+
+  <Product>
+    <Item>5x7</Item>
+    <Price>14</Price>
+    <ExtendedCheckout>true</ExtendedCheckout>
+    <Division>1</Division>
+  </Product>
+    <Product>
+    <Item>8x10</Item>
+    <Price>26</Price>
+    <ExtendedCheckout>true</ExtendedCheckout>
+    <Division>1</Division>
+  </Product>
+   <Product>
+    <Item>13x19</Item>
+    <Price>35</Price>
+    <ExtendedCheckout>true</ExtendedCheckout>
+    <Division>1</Division>
+  </Product>
+  <Product>
+    <Item>13x19 3in1</Item>
+    <Price>40</Price>
+    <ExtendedCheckout>true</ExtendedCheckout>
+    <Division>3</Division>
+  </Product>
+ <Product>
+    <Item>+ web</Item>
+    <Price>5</Price>
+    <ExtendedCheckout>true</ExtendedCheckout>
+    <Division>3</Division>
+  </Product>
+</Photobiz>
+
+

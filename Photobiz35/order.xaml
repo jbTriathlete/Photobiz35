@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="order"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="88" d:DesignWidth="611">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+                  Source="rdict.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid Height="auto" Name="mGrid" Width=" auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+           
+           </Grid.RowDefinitions>
+        
+            <Grid Height="84" Name="Grid1" Width="auto" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="38" />
+                    <RowDefinition Height="41" />
+                    <RowDefinition Height="5*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="310*" />
+                </Grid.ColumnDefinitions>
+                <Button Style="{StaticResource myStyle}"  Content="I Want This!" Grid.Column="4" Height="53" HorizontalAlignment="Left" Margin="6,27,0,0" Name="Button1" VerticalAlignment="Top" Width="100" Grid.RowSpan="3" />
+                <Label Content="Label" FontSize="14" Height="33" HorizontalAlignment="Left" Margin="10,9,0,0" Name="lblitem" VerticalAlignment="Top" Width="74" Grid.Row ="1" Grid.RowSpan="2" />
+                <Label Content="Label" FontSize="14" Grid.Column="2" Height="35" HorizontalAlignment="Left" Margin="5,9,0,0" Name="lblPrice" VerticalAlignment="Top" Width="94" Grid.Row ="1" Grid.RowSpan="2" />
+                <Label Content="Item" Height="26" HorizontalAlignment="Left" Margin="10,12,0,0" Name="Label1" VerticalAlignment="Top" Width="62" FontWeight="Bold" />
+                <Label Content="Price" Grid.Column="2" Height="23" HorizontalAlignment="Left" Margin="14,12,0,0" Name="Label2" VerticalAlignment="Top" Width="80" FontWeight="Bold" IsEnabled="False" />
+            </Grid>
+      
+    </Grid>
+</UserControl>

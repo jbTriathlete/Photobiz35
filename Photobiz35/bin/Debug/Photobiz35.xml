@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Photobiz35
+</name>
+</assembly>
+<members>
+<member name="M:WpfApplication1.ctrlZoom.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WpfApplication1.ctrlZoom">
+	<summary>
+ctrlZoom
+</summary>
+</member><member name="M:WpfApplication1.MainWindowX.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WpfApplication1.MainWindowX">
+	<summary>
+MainWindowX
+</summary>
+</member><member name="M:WpfApplication1.ctrlInfo.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WpfApplication1.ctrlInfo">
+	<summary>
+ctrlInfo
+</summary>
+</member><member name="M:WpfApplication1.order.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WpfApplication1.order">
+	<summary>
+order
+</summary>
+</member><member name="M:WpfApplication1.frmCheckOut.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WpfApplication1.frmCheckout">
+	<summary>
+frmCheckout
+</summary>
+</member><member name="M:WpfApplication1.CtrlReview.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WpfApplication1.ctrlReview">
+	<summary>
+ctrlReview
+</summary>
+</member><member name="M:WpfApplication1.frmCheckOut.stackorders_Click(System.Object,System.Windows.RoutedEventArgs)">
+ Public Shared ReadOnly removeItem As RoutedEvent = EventManager.RegisterRoutedEvent(removeitem,RoutingStrategy.Bubble,TypeOf(RoutedEventhandler),)
+
+</member><member name="F:WpfApplication1.ctrlZoom.inCurrent">
+Private mw As MainWindow
+
+</member><member name="M:WpfApplication1.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:WpfApplication1.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:WpfApplication1.Application">
+	<summary>
+Application
+</summary>
+</member><member name="P:WpfApplication1.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:WpfApplication1.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:WpfApplication1.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:WpfApplication1.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:WpfApplication1.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:WpfApplication1.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:WpfApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WpfApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WpfApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
